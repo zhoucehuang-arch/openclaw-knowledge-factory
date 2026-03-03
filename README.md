@@ -42,7 +42,7 @@ python3 scripts/build_index.py \
 - `principles/`: stable, reusable principles
 - `playbooks/`: executable application guides
 - `cases/`: adoption and impact records
-- `guides/`: setup guides (network skills, codex workflow, github sharing)
+- `guides/`: setup guides (network skills, codex workflow, qmd memory, cron-heartbeat orchestration, github sharing)
 - `scripts/build_index.py`: report parser and scorer
 - `templates/knowledge_card.md`: normalized knowledge artifact
 - `templates/apply_playbook.md`: implementation template
