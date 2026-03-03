@@ -12,3 +12,6 @@
 - Added cron-heartbeat orchestration guide
 - Added closed-loop playbook for cron+heartbeat
 - Added memory promotion playbook for QMD
+- Added orchestration health checker script
+- Added heartbeat state example
+- Added one-command installer for other OpenClaw workspaces

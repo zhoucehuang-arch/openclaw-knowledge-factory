@@ -1,0 +1,32 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "codex_tasks": null,
+    "intel_delivery": null
+  },
+  "cronJobs": {
+    "intel_am": {
+      "lastRun": null,
+      "lastSuccess": null,
+      "lastReportPath": null,
+      "lastSent": null,
+      "status": "unknown"
+    },
+    "intel_pm": {
+      "lastRun": null,
+      "lastSuccess": null,
+      "lastReportPath": null,
+      "lastSent": null,
+      "status": "unknown"
+    }
+  },
+  "metrics": {
+    "dedupRate24h": null,
+    "closeLoopRate24h": null,
+    "duplicateNotifyRate24h": null,
+    "missedDelivery24h": null
+  },
+  "alerts": []
+}

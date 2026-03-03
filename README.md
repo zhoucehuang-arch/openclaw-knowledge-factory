@@ -27,6 +27,14 @@ python3 scripts/build_index.py \
   --reports-dir ../openclaw-intel-lab/reports \
   --out-json dist/knowledge_index.json \
   --out-backlog dist/action_backlog.md
+python3 scripts/health_check.py \
+  --state /home/admin/.openclaw/workspace/memory/heartbeat-state.json
+```
+
+## Install to Another OpenClaw Workspace
+
+```bash
+bash install.sh /home/admin/.openclaw/workspace
 ```
 
 ## Suggested Weekly Cadence
@@ -44,6 +52,9 @@ python3 scripts/build_index.py \
 - `cases/`: adoption and impact records
 - `guides/`: setup guides (network skills, codex workflow, qmd memory, cron-heartbeat orchestration, github sharing)
 - `scripts/build_index.py`: report parser and scorer
+- `scripts/health_check.py`: health checker for cron/heartbeat/qmd loop
+- `examples/heartbeat-state.json`: standard orchestration state file
+- `install.sh`: one-command installer for other OpenClaw workspaces
 - `templates/knowledge_card.md`: normalized knowledge artifact
 - `templates/apply_playbook.md`: implementation template
 - `dist/`: generated outputs
